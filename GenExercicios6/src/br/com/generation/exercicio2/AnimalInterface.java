@@ -6,6 +6,10 @@ public interface AnimalInterface {
 	public void comoMove(String move);
 	public void nomeando(String nome);
 	public void tempoVivo(int idade);
+	public void tipoCome();
+	public void comoMove();
+	public void nomeando();
+	public void tempoVivo();
 	public void impressao();
 	public void scanner();
 	

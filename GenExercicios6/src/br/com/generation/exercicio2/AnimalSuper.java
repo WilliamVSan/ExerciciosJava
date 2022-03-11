@@ -51,5 +51,29 @@ public class AnimalSuper implements AnimalInterface{
 		m = entrada.next();
 		entrada.close();
 	}
+
+	@Override
+	public void tipoCome() {
+		System.out.println("Come alguma coisa");
+		
+	}
+
+	@Override
+	public void comoMove() {
+		System.out.println("Ah deve se mover");
+		
+	}
+
+	@Override
+	public void nomeando() {
+		System.out.println("Qual o nome disso mesmo?");
+		
+	}
+
+	@Override
+	public void tempoVivo() {
+		System.out.println("Esta vivo a um tempo ai");
+		
+	}
 	
 }
